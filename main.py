@@ -38,4 +38,4 @@ async def get_object(file_name: str):
 
 @app.get("/test")
 async def get_object():
-    return "testing successful"
+    return {"field1" : "testing successful"}
