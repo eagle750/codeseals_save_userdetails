@@ -34,3 +34,8 @@ async def get_object(file_name: str):
         data = json.load(f)
 
     return data
+
+
+@app.get("/test")
+async def get_object():
+    return "testing successful"
